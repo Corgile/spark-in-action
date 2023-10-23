@@ -17,8 +17,6 @@ public class CsvToDataframeApp {
      * @param args args
      */
     public static void main(String[] args) {
-        System.setProperty("io.netty.tryReflectionSetAccessible", "true");
-
         CsvToDataframeApp app = new CsvToDataframeApp();
         app.start();
     }
