@@ -4,7 +4,7 @@
   <modelVersion>4.0.0</modelVersion>
 
   <groupId>net.jgp.books</groupId>
-  <artifactId>spark-in-action2-chapter01</artifactId>
+  <artifactId>spark-in-action</artifactId>
   <version>1.0.0-SNAPSHOT</version>
   <packaging>jar</packaging>
 
@@ -21,6 +21,7 @@
     <scala.version>2.12</scala.version>
     <spark.version>3.4.1</spark.version>
     <junit.version>4.13.1</junit.version>
+    <mysql.connector.version>8.0.33</mysql.connector.version>
     <maven-compiler-plugin.version>3.10.1</maven-compiler-plugin.version>
   </properties>
 
@@ -53,6 +54,11 @@
       <version>30.0-jre</version>
     </dependency>
 
+    <dependency>
+      <groupId>com.mysql</groupId>
+      <artifactId>mysql-connector-j</artifactId>
+      <version>${mysql.connector.version}</version>
+    </dependency>
 
     <dependency>
       <groupId>org.apache.spark</groupId>
